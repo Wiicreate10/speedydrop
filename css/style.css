@@ -43,12 +43,15 @@ body {
 }
 
 header {
-    /* height: 45vh; */
-    /* min-height:300px ; */
+    height: 60vh;
+    min-height:300px ;
     background-image: url('../img/BG.png');
     background-position: center center;
     background-size: cover;
-    padding: 20px 10%;
+    padding: 10px 5%;
+    position: relative;
+    text-transform: uppercase;
+    color: var(--white);
 }
 
 /* for the hotline */
@@ -69,17 +72,126 @@ header .hotline{
 .hotline a{
     font-size: var(--h3);
     text-decoration: none;
-    color:var(--white)
+    color:var(--white);
 }
 /* end of hotline style */
 /* for the nav-menu */
 .nav-menu {
     background-color: var(--white);
-    padding: 10px 20px;
+    /* padding: 0 20px; */
     border-radius: 0 0 10px 10px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: -2px;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    align-items: center;
+    justify-items: flex-start;
+    font-size: var(--subtitle);
+}
+/* logo */
+.nav-menu .logo-container {
+    padding: 10px;
+    text-align: center;
+    width:100%;
+}
+.nav-menu .logo-container img {
+    width: 40%;
+    min-width: 45px;
+    max-width: 55px;
+} 
+/* navlinks */
+.nav-menu .nav-links {
+    position: relative;
+    width: 100%;
+}
+.nav-links a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-menu .nav-links > ul {
+    display: flex;
+    list-style: none;
+}
+.nav-links > ul > li {
+    position: relative;
+    padding: 5px 0px;
+    border-right: 1px solid #ccc;
+    width: 16.5%;
+    text-align: center;
+}
+.nav-links > ul > li:last-child {
+    border: none;
+}
+
+.nav-links > ul > li > a {
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+.nav-links .dropdown-items{
+    position: absolute;
+    top: 175%;
+    right: 5px;
+    background-color: var(--primary);
+    border-radius: 5px;
+    width: 170%;
+    text-align: left;
+    min-width: 150px;
+}
+.nav-links .dropdown-items li{
+    display: block;
+    padding: 5px 10px;
+    font-size: var(--smaller-text)
+}
+.nav-links .dropdown-items a {
+    color: var(--white);
+}
+.nav-links .track a {
+    background-color: var(--secondary);
+}
+.nav-links .active a {
+    background-color: var(--primary);
+    color: var(--secondary)
+}
+.nav-links .active a:hover,
+.nav-links .track a:hover {
+    background-color: unset;
+    color:var(--primary);
+}
+/* for the page big header */
+header section.main-heading {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+header section.main-heading h2 {
+    font-size: var(--h2);
+}
+header section.main-heading h1 {
+    font-size: var(--h1);
+}
+header section.page-title,
+header section.bread-crumb {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+header section.page-title p {
+    font-size: var(--pre-title);
+}
+header section.page-title h2 {
+    font-size: var(--h2);
+}
+header section.bread-crumb {
+    font-size:var(--body);
+    font-weight: bold;
+    right: 40px;
+    left: unset;
+}
+header section.bread-crumb a {
+    color: var(--white);
+    text-decoration: none;
+}
+header section.bread-crumb a.subpage {
+    color: var(--secondary);
 }
 
 /* for the main content, remove the flex style and add appropriate styling */
@@ -92,7 +204,7 @@ main {
     font-size: var(--body);
 }
 
-/* for the footer */
+/* for the FOOTER */
 footer {
     font-size: var(--body);
     color: var(--white);
@@ -163,15 +275,23 @@ footer .top-footer {
 .grid-row-3 .col  li {
     text-transform: capitalize;
     padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .grid-row-3 .col.contact {
     text-align: left;
 }
-.grid-row-3 .col.contact a{
-    padding: 0 5px;
+.grid-row-3 .col.contact i{
+    padding: 0 7px;
 }
+/* END OF STYLE FOR THE FOOTER */
+
+/* GENERAL STYLES */
 /* for a links on hover*/
-a:hover {
+a:hover,
+.nav-links .dropdown-items a:hover,
+header section.bread-crumb a:hover {
     color: var(--secondary);
 }
 
