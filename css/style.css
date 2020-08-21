@@ -1,0 +1,185 @@
+/* variables */
+:root {
+    /* colors */
+    --primary: #050029;
+    --secondary: #A682FF;
+    --tertiary: #2A2D43;
+    --text: #373354;
+    --subtle-text: #BCA1FF;
+    --accent: #D0C8D0;
+    --disabled: #9496A1;
+    --white: #FFF;
+    --dark: #1E1A3E;
+    --success: #06BE4F;
+    --error: #FC3339;
+
+    /* font-sizes */
+    --h1: 6.4rem;
+    --h2: 4.8rem;
+    --h3: 3rem;
+    --subtitle: 2.4rem;
+    --body: 1.9rem;
+    --smaller-text: 1.4rem;
+    --pre-title: 1.2rem;
+    --button: 1.6rem;
+    --link: 1.6rem;
+
+    /* font family */
+    --default-family: 'Poppins', Sans-serif;
+    --links-family: "Work Sans", Sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 5px;
+}
+
+body {
+    font-family: var(--default-family);
+}
+
+header {
+    /* height: 45vh; */
+    /* min-height:300px ; */
+    background-image: url('../img/BG.png');
+    background-position: center center;
+    background-size: cover;
+    padding: 20px 10%;
+}
+
+/* for the hotline */
+header .hotline{
+    /* take the item to the right */
+    text-align: right;
+    color: var(--accent);
+    font-size: var(--subtitle);
+}
+.hotline span {
+    padding: 0 3px;
+}
+.hotline .icon {
+    margin: 0 3px;
+    color: var(--secondary);
+}
+
+.hotline a{
+    font-size: var(--h3);
+    text-decoration: none;
+    color:var(--white)
+}
+/* end of hotline style */
+/* for the nav-menu */
+.nav-menu {
+    background-color: var(--white);
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -2px;
+}
+
+/* for the main content, remove the flex style and add appropriate styling */
+main {
+    height: 23vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: var(--body);
+}
+
+/* for the footer */
+footer {
+    font-size: var(--body);
+    color: var(--white);
+}
+
+/* for the bottom footer */
+footer .bottom-footer {
+    background-color: var(--dark);
+    padding: 20px;
+}
+footer .bottom-footer a {
+    color: var(--secondary);
+}
+/* for top footer */
+footer .top-footer {
+    background-color: var(--primary);
+    padding: 3% 5%;
+}
+.top-footer .grid-row-2 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.top-footer a {
+    color: var(--white);
+    text-decoration: none;
+}
+.grid-row-2>.col {
+    margin: 10px;
+}
+.grid-row-2 .summary {
+    max-width: 250px;
+    color: var(--secondary);
+}
+.grid-row-2 .summary img {
+    width: 90px;
+}
+.summary .social-media-icons {
+    margin-top: 10px;
+    font-size: 2.3rem;
+}
+
+.social-media-icons a {
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 13%;
+}
+/* for the link lists*/
+.top-footer .grid-row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.grid-row-3 .col {
+    max-width: 250px;
+    padding: 10px 0; 
+    text-align: center;
+    margin: 0 auto;
+}
+.grid-row-3 .col h3 {
+    text-transform: uppercase;
+}
+.grid-row-3 .col  ul {
+    list-style: none;
+    margin-top: 10px;
+}
+.grid-row-3 .col  li {
+    text-transform: capitalize;
+    padding: 5px 0;
+}
+.grid-row-3 .col.contact {
+    text-align: left;
+}
+.grid-row-3 .col.contact a{
+    padding: 0 5px;
+}
+/* for a links on hover*/
+a:hover {
+    color: var(--secondary);
+}
+
+/* media queries for responsiveness */
+@media screen and (max-width: 800px) {
+    .top-footer .grid-row-2 {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-items: center;
+    }
+}
