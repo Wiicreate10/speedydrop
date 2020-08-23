@@ -2,8 +2,8 @@
 const chevron = document.getElementById('chevron');
 // get the burger for the mobile view
 const burger = document.getElementById('burger-icon');
-
-//for the CAROUSEL
+// the nav-bar
+const navBar = document.querySelector('.nav-bar');
 
 
 
@@ -28,6 +28,7 @@ const onBurgerClick = (e) => {
     // toggle the required classes
     navMenu.classList.toggle('expanded');
     burger.classList.toggle('navIsExpanded');
+    navBar.classList.toggle('transparent');
 }
 
 const handleCarousel = () => {
