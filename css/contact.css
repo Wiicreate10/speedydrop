@@ -1,3 +1,6 @@
+main {
+    color: var(--primary);
+}
 /* page content */
 .page-content {
     padding: 3%;
@@ -83,7 +86,7 @@ form .input-group .input-field {
     background-color: var(--accent);
     border-radius: 8px 8px 0 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px;
     border-bottom:1px solid var(--primary);
 }
@@ -119,7 +122,7 @@ form .input-group.block-level {
     margin: 10px 0;
     color:var(--white);
     background-color: var(--primary);
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 8px 10px;
     text-transform: uppercase;
     font-weight: bold;
@@ -135,6 +138,26 @@ form .input-group.block-level {
     box-shadow: 0px 4px 8px 2px rgba(5, 0, 41, 0.16);
 }
 
+/* JS classes */
+form .input-group .input-field.focused {
+    background-color: transparent;
+    border:1px solid var(--secondary);
+}
+
+form .input-group .input-field.success {
+    background-color: transparent;
+    border:1px solid var(--success);
+}
+form .input-group .input-field.success .icon{
+    color:var(--success);
+}
+form .input-group .input-field.error {
+    background-color: transparent;
+    border:1px solid var(--error);
+}
+form .input-group .input-field.error .icon{
+    color:var(--error);
+}
 /* map */
 main section.map {
     margin:30px 0 -12.5px;
@@ -149,6 +172,15 @@ main section.map {
     .page-content .contact-info {
         text-align: center;
     }
+    .contact-info .working-hours .text-body,
+    .contact-info .contacts li{
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px 0;
+    }
+}
+/* media query - 888px max-width*/
+@media screen and (max-width: 500px) {
     form .input-group {
         width: 100%;
     }

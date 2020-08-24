@@ -179,45 +179,48 @@
                     <h3>your feedback</h3>
                     <p>Do you have and complaint?</p>
                 </div>
-                <form>
+                <form autocomplete="off">
                     <!-- name -->
                     <div class="input-group">
                         <label for="name">full name*</label>
                         <div class="input-field">
-                            <input type="text" name="name" id="name" placeholder="your name" aria-placeholder="your full name">
-                            <i class="fas fa-check"></i>
+                            <input class="input" type="text" name="name" id="name" placeholder="your name" aria-placeholder="your full name" required>
+                            <i class="icon fas"></i>
                         </div>
                     </div>
                     <!-- company -->
                     <div class="input-group">
                         <label for="company">company*</label>
                         <div class="input-field">
-                            <input type="text" name="company" id="company" placeholder="your company" aria-placeholder="your company">
-                            <i class="fas fa-exclamation"></i>
+                            <input class="input" type="text" name="company" id="company" placeholder="your company" aria-placeholder="your company" required>
+                            <i class="icon fas"></i>
                         </div>
                     </div>
                     <!-- email address -->
                     <div class="input-group">
                         <label for="email">email*</label>
                         <div class="input-field">
-                            <input type="email" name="email" id="email" placeholder="your email address" aria-placeholder="your email address">
-                            <i class="fas fa-exclamation"></i>
+                            <input class="input" type="email" name="email" id="email" placeholder="your email address" aria-placeholder="your email address" required>
+                            <i class="icon fas"></i>
                         </div>
                     </div>
                     <!-- phone number -->
                     <div class="input-group">
                         <label for="phone">phone number*</label>
                         <div class="input-field">
-                            <input type="tel" name="phone" id="phone" placeholder="your phone number" aria-placeholder="your phone number">
-                            <i class="fas fa-exclamation"></i>
+                            <input class="input" type="tel" name="phone" id="phone" placeholder="your phone number" aria-placeholder="your phone number" pattern="^[0-9-+\s()]*$" data-errorMessage="enter a phone number"
+                            required>
+                            <i class="icon fas"></i>
                         </div>
                     </div>
                     <!-- message -->
                     <div class="input-group block-level">
                         <label for="message">message*</label>
                         <div class="input-field">
-                            <textarea name="message" id="message" placeholder="your message" aria-placeholder="your message"
-                            rows="6"></textarea>
+                            <textarea class="input" name="message" id="message" placeholder="your message" aria-placeholder="your message"
+                            rows="6"
+                            data-errorMessage="enter a message" required></textarea>
+                            <i class="icon fas"></i>
                         </div>
                     </div>
                     <!-- submit -->
@@ -297,5 +300,6 @@
         </div>
     </footer>
     <script src="js/index.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>
