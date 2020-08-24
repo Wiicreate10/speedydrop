@@ -306,8 +306,8 @@ section.slide-item .carousel-text h1 {
 
 /* main */
 main {
-    color: black;
-    font-size: var(--h3);
+    color: var(--primary);
+    /* font-size: var(--h3); */
     margin-top:calc(var(--heroHeight) - var(--fit));
 }
 
