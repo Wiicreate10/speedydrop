@@ -308,11 +308,11 @@ section.slide-item .carousel-text h1 {
 main {
     /* position: relative; */
     color: black;
-    font-size: var(--h3);
+    /* font-size: var(--h3); */
     margin-top:calc(var(--heroHeight) - var(--fit));
-    display:flex;
+    /* display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 /* FOOTER */
