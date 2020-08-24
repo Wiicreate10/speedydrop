@@ -306,13 +306,9 @@ section.slide-item .carousel-text h1 {
 
 /* main */
 main {
-    /* position: relative; */
     color: black;
     font-size: var(--h3);
     margin-top:calc(var(--heroHeight) - var(--fit));
-    display:flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* FOOTER */
