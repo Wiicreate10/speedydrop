@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icons/Brand.ico" type="image/x-icon">
+
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/1395a25f53.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/contact.css"> -->
+    <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/forms.css">
+    <link rel="stylesheet" href="css/track.css">
+
+    <title>Track your orders | SpeedyDrop</title>
+</head>
+<body>
+    <section class="hero banner">
+        <!--enter page details here  -->
+        <div class="page-details">
+            <div class="hotline">
+                <span class="text">hotline number:</span>
+                <i class="icon fas fa-phone-alt"></i>
+                <a href="tel:+2349012345678"> +2349012345678</a>
+            </div>
+            <div class="bottom-details">
+                <section class="page-title">
+                    <p class="subtitle">know where your order is</p>
+                    <h2>track</h2>
+                </section>
+                <section class="breadcrumb">
+                    <a href="#">Home</a>
+                    /
+                    <a href="#" class="subpage">track</a>
+                </section>
+            </div>
+        </div>
+        <!-- page detail ends -->
+        <!-- carosel -->
+        <div class="carousel">
+            <div class="track-display">
+                <div class="slide-container">
+                <!-- banner photo -->
+                    <section class="slide-item" id="firstClone">
+                        <div class="img-container">
+                            <img src="./img/Hero.png" alt="slide-img">
+                        </div>
+                        <div class="carousel-text page-heading">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="nav-bar sticky">
+        <div class="logo-container">
+            <a href="#">
+                 <img src="./icons/Brand.svg" alt="brand-logo">
+            </a>
+        </div>
+        <nav class="nav-links">
+            <div class="burger-icon" id="burger-icon">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+            <ul class="nav-link-list collapsed" id="nav-link-list">
+                <li class="nav-link">
+                    <a href="./index.html">home</a>
+                </li> 
+                <li class="nav-link">
+                    <a href="">about</a>
+                </li> 
+                <li class="nav-link dropdown">
+                    
+                    <a href="#">
+                        <span>services</span>
+                        <i class="icon fas fa-chevron-down" id='chevron'></i>
+                    </a>
+                    <ul class="dropdown-items">
+                        <li>
+                            <a href="#">international and domestic services</a>
+                        </li>
+                        <li>
+                            <a href="#">mail room management and warehousing</a>
+                        </li>
+                        <li>
+                            <a href="#">express delivery</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="#">news</a>
+                </li>
+                <li class="nav-link">
+                    <a href="./contact.html">contact</a>
+                </li>
+                <li class="nav-link active">
+                    <a href="">track</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <!-- form -->
+        <section class="section-form card page-card">
+            <div class="heading">
+                <h3>track your shipment</h3>
+            </div>
+            <form autocomplete="off">
+                <!-- phone number -->
+                <div class="input-group">
+                    <label for="order">order number*</label>
+                    <div class="input-field">
+                        <input class="input" type="text" name="order" id="order" placeholder="(e.g #1234)" aria-placeholder="your phone number" pattern="^#[0-9]{4,10}$" data-errorMessage="enter a phone number"
+                        required>
+                        <i class="icon fas"></i>
+                    </div>
+                </div>
+                <!-- email address -->
+                <div class="input-group">
+                    <label for="email">email*</label>
+                    <div class="input-field">
+                        <input class="input" type="email" name="email" id="email" placeholder="your email address" aria-placeholder="your email address" required>
+                        <i class="icon fas"></i>
+                    </div>
+                </div>
+                <!-- submit -->
+                <div class="input-group block-level">
+                    <button type="submit">track</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+                <div class="bottom-footer">
+            <span>SpeedyDrop &copy; .</span>
+            <a href="#"> Privacy Policy</a>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="./js/form-validation.js"></script>
+</body>
+</html>

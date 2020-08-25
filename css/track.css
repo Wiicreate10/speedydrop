@@ -1,0 +1,12 @@
+main {
+    display: flex;
+}
+.page-card {
+    width: 90%;
+    max-width: 400px;
+    margin: 60px auto;
+}
+
+form .input-group {
+    width: 100%;
+}

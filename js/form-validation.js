@@ -1,4 +1,3 @@
-// fas fa-exclamation
 // get all the inputs
 const inputs = document.querySelectorAll(".input");
 

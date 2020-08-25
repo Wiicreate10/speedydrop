@@ -204,9 +204,11 @@ section.banner .page-details{
 }
 .bottom-details .breadcrumb a{
     font-size: var(--pre-title);
+    text-transform: capitalize;
 }
 .bottom-details .breadcrumb a.subpage{
     color: var(--secondary);
+    text-decoration: underline;
 }
 
 /* the carousel */

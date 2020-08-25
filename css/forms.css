@@ -1,49 +1,4 @@
-main {
-    color: var(--primary);
-}
-/* page content */
-.page-content {
-    padding: 3%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    font-size: var(--pre-title);
-    gap: 30px;
-}
-/* contact info */
-.page-content .contact-info {
-    display: grid;
-    gap: 30px;
-}
-
-.contact-info h2 {
-    font-size: var(--subtitle);
-    text-transform: uppercase;
-}
-.contact-info h3 {
-    font-size: var(--smaller-text);
-    text-transform: capitalize;
-    margin: 5px 0;
-}
-.contact-info a {
-    color:var(--primary);
-}
-.contact-info i {
-    margin:0 7px;
-}
-.contact-info .working-hours .text-body,
-.contact-info .contacts li{
-    display: flex;
-    align-items: center;
-}
-.contact-info .contacts ul {
-    list-style: none;
-}
-.contact-info .contacts li {
-    margin: 3px 0;
-}
-/* form card*/
-
-/* .section-form {
+.section-form {
     text-align: center;
     padding: 15px;
 }
@@ -62,18 +17,18 @@ main {
 
 /* style each input-group */
 /* make the input 40% as wide as the container for large screen */
-/* form .input-group {
+form .input-group {
     width: 47%;
     margin: 8px 0;
     /* border: 1px solid; */
-/* }  */
+}
 /* for the labels */
-/* .input-group label {
+.input-group label {
     text-transform: uppercase;
     font-weight: bold;
-}  */
+} 
 /* for the container of the input and the icon */
-/* form .input-group .input-field {
+form .input-group .input-field {
     width: 100%;
     margin: 2px 0;
     background-color: var(--accent);
@@ -82,37 +37,37 @@ main {
     align-items: flex-start;
     padding: 10px;
     border-bottom:1px solid var(--primary);
-} */
+}
 /* for the input */
-/* .input-field input{
+.input-field input{
     background: transparent;
     border: 0;
     outline: 0;
     width: 95%;
-} */
+}
 /* for the block level inputs - text area and button */
-/* form .input-group.block-level {
+form .input-group.block-level {
     width: 100%;
 }
 .input-group.block-level textarea, 
 .input-group.block-level button {
     width: 100%;
-} */
+}
 /* the textarea */
-/* .input-group.block-level textarea {
+.input-group.block-level textarea {
     background-color: transparent;
     border: 0;
     outline: 0;
     font-family: var(--default-family);
-} */
+}
 /* the placeholders */
-/* .input-field input::placeholder,
+.input-field input::placeholder,
 .input-group.block-level textarea::placeholder{
     text-transform: capitalize;
     font-family: var(--default-family);
-} */
+}
 /* button */
-/* .input-group.block-level button {
+.input-group.block-level button {
     margin: 10px 0;
     color:var(--white);
     background-color: var(--primary);
@@ -130,10 +85,10 @@ main {
 .input-group.block-level button:hover {
     background-color: var(--secondary);
     box-shadow: 0px 4px 8px 2px rgba(5, 0, 41, 0.16);
-} */
+}
 
 /* JS classes */
-/* form .input-group .input-field.focused {
+form .input-group .input-field.focused {
     background-color: transparent;
     border:1px solid var(--secondary);
 }
@@ -151,31 +106,4 @@ form .input-group .input-field.error {
 }
 form .input-group .input-field.error .icon{
     color:var(--error);
-} */ 
-/* map */
-main section.map {
-    margin:30px 0 -12.5px;
-}
-
-
-/* media query - 888px max-width*/
-@media screen and (max-width: 888px) {
-    .page-content {
-        grid-template-columns: 1fr;
-    }
-    .page-content .contact-info {
-        text-align: center;
-    }
-    .contact-info .working-hours .text-body,
-    .contact-info .contacts li{
-        justify-content: center;
-        flex-direction: column;
-        padding: 5px 0;
-    }
-}
-/* media query - 888px max-width*/
-@media screen and (max-width: 500px) {
-    form .input-group {
-        width: 100%;
-    }
 }
