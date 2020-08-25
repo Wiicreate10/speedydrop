@@ -61,6 +61,7 @@ body {
     background-color: var(--white);
     border-radius: 0 0 10px 10px;
     z-index: 3;
+    box-shadow: 0 5px 7px #0500293d;
 }
 /* logo */
 .logo-container {
