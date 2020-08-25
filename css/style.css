@@ -420,21 +420,14 @@ body a:hover {
         border-radius:0;
         padding: 0;
     }
-    .nav-bar.transparent {
-        background-color: transparent;
-    }
+    
     /* align the logo */
     .logo-container {
         text-align: center;
         align-self: flex-start;
         padding-top: 20px;
-        background-color: var(--white);
     }
     /* turn the nav links to display of block */
-    nav.nav-links,
-    .nav-links > ul {
-        background-color:var(--white);
-    } 
     .nav-links > ul {
         margin: 0 auto;
         width: 100%;
