@@ -110,6 +110,7 @@ form .input-group.block-level {
     background-color: transparent;
     border: 0;
     outline: 0;
+    font-family: var(--default-family);
 }
 /* the placeholders */
 .input-field input::placeholder,
