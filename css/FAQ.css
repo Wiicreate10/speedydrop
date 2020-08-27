@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    color: var(--primary);
+}
+main .cards {
+    width: 95%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+/* each card detail style */
+.cards .card {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.cards .card.dropdown {
+    overflow: hidden;
+    transition: max-height 0.4s linear;
+    position: relative;
+    max-height: calc(var(--body) + 50px);
+}
+.card.dropdown.expanded {
+    max-height: 300px;
+}
+.card.dropdown .icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    padding: 25px;
+}
+.card.dropdown h3 {
+    margin-bottom: 30px;
+}
+.card h3 {
+    font-size: var(--link);
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding-right: 65px;
+}
+.card p {
+    font-size: var(--pre-title);
+}
