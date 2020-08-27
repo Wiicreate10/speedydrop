@@ -10,7 +10,13 @@ let newsList;
 
 // handle news
 const handleNews = () => {
-   getNews("./../data/news.json")
+    // get the root folder
+    let URL = location.href.split("/");
+    // extract the URL
+    URL.pop();
+    URL = URL.join("/");
+
+   getNews(`${URL}/data/news.json`)
     .then(news => generateNews(news))
     // .then(news => generateNews(news)) 
     .then(newsCard => renderNewsCard(newsCard));
