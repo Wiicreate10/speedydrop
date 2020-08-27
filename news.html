@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icons/Brand.ico" type="image/x-icon">
+
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/1395a25f53.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/news.css">
+
+    <title>News | SpeedyDrop</title>
+</head>
+<body>
+    <div class="nav-bar sticky">
+        <div class="logo-container">
+            <a href="./index.html">
+                 <img src="./icons/Brand.svg" alt="brand-logo">
+            </a>
+        </div>
+        <nav class="nav-links">
+            <div class="burger-icon" id="burger-icon">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+            <ul class="nav-link-list collapsed" id="nav-link-list">
+                <li class="nav-link">
+                    <a href="./index.html">home</a>
+                </li> 
+                <li class="nav-link">
+                    <a href="">about</a>
+                </li> 
+                <li class="nav-link dropdown">
+                    
+                    <a href="#">
+                        <span>services</span>
+                        <i class="icon fas fa-chevron-down" id='chevron'></i>
+                    </a>
+                    <ul class="dropdown-items">
+                        <li>
+                            <a href="#">international and domestic services</a>
+                        </li>
+                        <li>
+                            <a href="#">mail room management and warehousing</a>
+                        </li>
+                        <li>
+                            <a href="#">express delivery</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-link active">
+                    <a href="">news</a>
+                </li>
+                <li class="nav-link">
+                    <a href="./contact.html">contact</a>
+                </li>
+                <li class="nav-link">
+                    <a href="./track.html">track</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="hero banner">
+        <!--enter page details here  -->
+        <div class="page-details">
+            <div class="hotline">
+                <span class="text">hotline number:</span>
+                <i class="icon fas fa-phone-alt"></i>
+                <a href="tel:+2349012345678"> +2349012345678</a>
+            </div>
+            <div class="bottom-details">
+                <section class="page-title">
+                    <p class="subtitle">know what is going on</p>
+                    <h2>news</h2>
+                </section>
+                <section class="breadcrumb">
+                    <a href="./index.html">Home</a>
+                    /
+                    <a href="" class="subpage">news</a>
+                </section>
+            </div>
+        </div>
+        <!-- page detail ends -->
+        <!-- carosel -->
+        <div class="carousel">
+            <div class="track-display">
+                <div class="slide-container">
+                <!-- banner photo -->
+                    <section class="slide-item" id="firstClone">
+                        <div class="img-container">
+                            <img src="./img/Hero.png" alt="slide-img">
+                        </div>
+                        <div class="carousel-text page-heading">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <main>
+        <section class="news-card-grid" id="news-card-grid">
+            
+        </section>
+        <section class="pagination">
+            <nav id="paginationNav">
+            </nav>
+        </section>
+    </main>
+    <footer>
+                <div class="bottom-footer">
+            <span>SpeedyDrop &copy; .</span>
+            <a href="#"> Privacy Policy</a>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="js/getData.js"></script>
+    <script src="js/news.js"></script>
+</body>
+</html>
