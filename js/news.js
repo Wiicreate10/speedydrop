@@ -10,7 +10,7 @@ let newsList;
 
 // handle news
 const handleNews = () => {
-   getNews("../data/news.json")
+   getNews("./../data/news.json")
     .then(news => generateNews(news))
     // .then(news => generateNews(news)) 
     .then(newsCard => renderNewsCard(newsCard));
