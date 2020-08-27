@@ -8,7 +8,7 @@
             "year": "2020"
         },
         "noOfComment": "46",
-        "cardPhotoURL": "../img/news_imgs/bizgrow.png",
+        "cardPhotoURL": "bizgrow.png",
         "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
         "linkURL":"#",
         "page": {
@@ -54,7 +54,7 @@
             "year": "2020"
         },
         "noOfComment": "13",
-        "cardPhotoURL": "../img/news_imgs/skillset.png",
+        "cardPhotoURL": "skillset.png",
         "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
         "linkURL":"#",
         "page": {
@@ -100,7 +100,7 @@
             "year": "2020"
         },
         "noOfComment": "34",
-        "cardPhotoURL": "../img/news_imgs/trackgoods.png",
+        "cardPhotoURL": "trackgoods.png",
         "cardText": "Elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
         "linkURL":"#",
         "page": {
@@ -146,7 +146,7 @@
             "year": "2020"
         },
         "noOfComment": "89",
-        "cardPhotoURL": "../img/news_imgs/improveskillset.png",
+        "cardPhotoURL": "improveskillset.png",
         "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
         "linkURL":"#",
         "page": {
@@ -192,7 +192,7 @@
             "year": 2020
         },
         "noOfComment": 46,
-        "cardPhotoURL": "../img/news_imgs/growbiz.png",
+        "cardPhotoURL": "growbiz.png",
         "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
         "linkURL":"#",
         "page": {
@@ -238,7 +238,7 @@
             "year": 2020
         },
         "noOfComment": 46,
-        "cardPhotoURL": "../img/news_imgs/growbiz.png",
+        "cardPhotoURL": "growbiz.png",
         "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
         "linkURL":"#",
         "page": {
@@ -284,7 +284,7 @@
             "year": 2020
         },
         "noOfComment": 46,
-        "cardPhotoURL": "../img/news_imgs/growbiz.png",
+        "cardPhotoURL": "growbiz.png",
         "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
         "linkURL":"#",
         "page": {
@@ -330,7 +330,7 @@
             "year": 2020
         },
         "noOfComment": 46,
-        "cardPhotoURL": "../img/news_imgs/growbiz.png",
+        "cardPhotoURL": "growbiz.png",
         "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
         "linkURL":"#",
         "page": {

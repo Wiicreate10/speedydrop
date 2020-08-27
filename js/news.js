@@ -7,14 +7,16 @@ const paginationState = {
 
 // variable for news
 let newsList;
+// get the root folder
+let URL = location.href.split("/");
+// extract the URL
+URL.pop();
+URL = URL.join("/");
+
 
 // handle news
 const handleNews = () => {
-    // get the root folder
-    let URL = location.href.split("/");
-    // extract the URL
-    URL.pop();
-    URL = URL.join("/");
+    
 
    getNews(`${URL}/data/news.json`)
     .then(news => generateNews(news))
@@ -39,7 +41,7 @@ const generateNews = (news) => {
     pagedNewsList.forEach(newsInfo => {
         newsCard += `
         <div class="card news-card">
-                <img src="${newsInfo.cardPhotoURL}" alt="card-image">
+                <img src="${URL}/img/news_imgs/${newsInfo.cardPhotoURL}" alt="card-image">
                 <div class="card-details">
                     <h3> ${newsInfo.title}</h3>
                 <p>${newsInfo.cardText}</p>
