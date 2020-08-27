@@ -1,0 +1,95 @@
+main {
+    color: var(--primary);
+}
+main section {
+    padding: 20px;
+}
+/* the card grid */
+main section.news-card-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 35px;
+    justify-items: center;
+}
+/* for each news card */
+section.news-card-grid .news-card {
+    max-width: 300px;
+}
+/* mmake the image to be 100% width*/
+.news-card img {
+    width: 100%;
+}
+/* grid the card details padding */
+.news-card .card-details {
+    padding: 5px 15px;
+    font-size: var(--pre-title);
+}
+.news-card h3 {
+    font-size: var(--link);
+    text-transform: capitalize;
+}
+.news-card p {
+    padding:8px 0;
+}
+
+/* the date and comments number line */
+.news-card .date-comments {
+    display: flex;
+    justify-content: space-between;
+}
+/* the read more link */
+.news-card .read-more {
+    margin: 10px 0;
+}
+.news-card a {
+    color: var(--secondary);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.news-card a:hover {
+    color: var(--primary)
+}
+
+/* pagination styles */
+main section.pagination {
+    text-align: right;
+}
+section.pagination nav button{
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    font-size: var(--smaller-text);
+    padding: 6px 10px;
+    margin:0 6px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: 0;
+    font-family: var(--default-family);
+}
+
+section.pagination nav button.direction {
+    padding: 6px 15px;
+    color: var(--white);
+    background:var(--primary);
+}
+section.pagination nav button.active {
+    color: var(--white);
+    background:var(--primary);
+}
+section.pagination nav button:hover{
+    color:var(--secondary);
+}
+section.pagination nav button:disabled{
+    background-color: var(--disabled);
+    border-color:var(--disabled);
+    color:var(--tertiary);
+    pointer-events: none;
+}
+
+@media screen and (max-width:600px ) {
+    main section.pagination {
+        text-align: center;
+    }
+}
