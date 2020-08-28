@@ -1,0 +1,244 @@
+main {
+    color: var(--primary);
+    text-align: center;
+}
+
+/* all divs inside each section */
+
+main section {
+    padding: 25px;
+}
+
+main section > div {
+    padding: 10px 30px; 
+}
+main section p,
+main section li{
+    font-size: var(--pre-title);
+}
+
+main section h3 {
+    font-size: var(--subtitle);
+    text-transform: capitalize;
+}
+
+/* history section */
+main section.history {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* the text */
+section.history .content-text {
+    width: 100%;
+}
+
+.content-text p {
+    margin: 10px 0;
+}
+/* image */
+section.history .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    width: 60%;
+}
+
+/* TIMELINE */
+main section.road-map {
+    padding: 25px 55px;
+}
+section.road-map .timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.timeline .time-card {
+    padding: 20px;
+    width: 45%;
+    margin:20px 0;
+    max-width: 200px;
+    text-align: center;
+}
+.timeline .middle-line{
+    display: none;
+}
+.time-card h2 {
+    font-size: var(--subtitle);
+    margin: 10px 0;
+    color: var(--secondary);
+}
+/* END OF TIMELINE STYLE */
+
+/* MISSION AND VISION */
+
+main section.mission-vision {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--accent);
+}
+section.mission-vision div{
+    width: 100%;
+}
+
+section.mission-vision .vision ol {
+    list-style-position: inside;
+}
+
+
+/* CORE VALUES */
+main section.core-values .values{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* each value */
+section.core-values .values div.value{
+    width: 50%;
+    padding: 10px;
+}
+.values img {
+    width: 60px;
+}
+.values h4 {
+    font-size: var(--link);
+    text-transform: capitalize;
+}
+
+/* compliance section */
+main section.compliance {
+    background-color: var(--dark);
+    color: var(--white);
+    padding:35px 25px;
+}
+section.compliance p {
+    margin-bottom: 20px;
+}
+/* the learn more link */
+section.compliance a {
+    padding: 8px 15px;
+    background-color: var(--secondary);
+    color:var(--primary);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* media queries */
+@media screen and (min-width: 888px) {
+    main {
+        text-align: left;
+    } 
+    /* OUR HISTORY */
+    /* the text */
+    section.history .content-text {
+        width: 65%;
+    }
+
+    /* image */
+    section.history .image-container {
+        width: 35%;
+    }
+    .image-container img {
+        width: 90%;   
+    }
+
+    /* TIMELINE */
+    section.road-map .timeline {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    /* the middle line */
+    .timeline .middle-line{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: var(--secondary);
+        left:0;
+        right: 0;
+        top: 50%;
+        margin-top: -1px
+    }
+   /* the beginning and end knob of the middle line */
+    .timeline .middle-line:before,
+    .timeline .middle-line:after{
+        content: '';
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: var(--secondary);
+        position: absolute;
+        top: -4px;
+    }
+    .timeline .middle-line:before {
+        left:-5px;
+        
+    }
+    .timeline .middle-line:after {
+        right: -5px;
+    }
+    /* CARD */
+    .timeline .time-card {
+        position: relative;
+        min-width: 130px;
+        width: 130px;
+        height: fit-content;
+    }
+    /* the odd number cards will stay on top  */
+    .timeline .time-card:nth-child(odd) {
+        align-self: flex-start;
+    }
+    /* the even numbers will stay at the bottom */
+    .timeline .time-card:nth-child(even) {
+        align-self: flex-end;
+    }
+
+    /* THE TRACKERS */
+    .timeline .time-card:before {
+        content: '';
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border: 1px solid var(--secondary);
+        border-radius: 50%;
+        background-color: var(--white);
+        z-index: 3;
+    }
+    
+    /* position the trackers on the line*/
+    .timeline .time-card:nth-child(even):before {
+        top: -71px;
+    }
+    .timeline .time-card:nth-child(odd):before {
+        bottom: -71px;
+    }
+    
+    /* mission-vision */
+    section.mission-vision div{
+        width: 50%;
+    }
+
+    /* core values */
+    /* center all text in the .core-values and compliance classes */
+    main section.core-values,
+    main section.compliance,
+    .timeline .time-card {
+        text-align: center;
+    }
+    /* make each .value div to be 25% for 4 of them will be contained in the row*/
+    section.core-values .values div.value{
+        width: 25%;
+    }
+}
