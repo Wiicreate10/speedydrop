@@ -1,0 +1,371 @@
+[
+    {
+        "id":0,
+        "title": "How to grow your business exponentially",
+        "newsDate": {
+            "month": "July",
+            "day": "04",
+            "year": "2020"
+        },
+        "noOfComment": "46",
+        "cardPhotoURL": "bizgrow.png",
+        "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
+        "linkURL":"#",
+        "page": {
+            "firstText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores? Recusandae ducimus animi voluptates corrupti, provident beatae voluptatum vitae eveniet minima mollitia. Dolores obcaecati architecto eos non dicta, vel suscipit officia vero fuga cumque, nesciunt ut illo aspernatur, beatae omnis reiciendis esse commodi.Accusantium unde cum doloribus, nostrum vero nesciunt earum debitis!",
+            "secondText":"Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at. Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at.",
+            "tagCloud":["business", "delivery", "technology", "tracking"],
+            "comments": [{
+                "commenterName": "Onaopemipo Dare",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 20,
+                    "year": 2020,
+                    "time": "12:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Adebambo Abiodun Oluwasegun",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            },{
+                "commenterName": "Iosgun Oluwakemi",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 21,
+                    "year": 2020,
+                    "time": "04:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Bamiboy",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas."
+            }],
+            "bannerPostURL": "../img/Banner.png",
+            "relatedPostsID": [2,4,7]
+        }
+    },{
+        "id":1,
+        "title": "Improve your skillset over the course of corona break",
+        "newsDate": {
+            "month": "July",
+            "day": "06",
+            "year": "2020"
+        },
+        "noOfComment": "13",
+        "cardPhotoURL": "skillset.png",
+        "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
+        "linkURL":"#",
+        "page": {
+            "firstText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores? Recusandae ducimus animi voluptates corrupti, provident beatae voluptatum vitae eveniet minima mollitia. Dolores obcaecati architecto eos non dicta, vel suscipit officia vero fuga cumque, nesciunt ut illo aspernatur, beatae omnis reiciendis esse commodi.Accusantium unde cum doloribus, nostrum vero nesciunt earum debitis!",
+            "secondText":"Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at. Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at.",
+            "tagCloud":["business", "delivery", "technology", "tracking"],
+            "comments": [{
+                "commenterName": "Onaopemipo Dare",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 20,
+                    "year": 2020,
+                    "time": "12:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Adebambo Abiodun Oluwasegun",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            },{
+                "commenterName": "Iosgun Oluwakemi",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 21,
+                    "year": 2020,
+                    "time": "04:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Bamiboy",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas."
+            }],
+            "bannerPostURL": "../img/Banner.png",
+            "relatedPostsID": [2,4,7]
+        }
+    },{
+        "id":2,
+        "title": "How to track your goods",
+        "newsDate": {
+            "month": "July",
+            "day": "20",
+            "year": "2020"
+        },
+        "noOfComment": "34",
+        "cardPhotoURL": "trackgoods.png",
+        "cardText": "Elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
+        "linkURL":"#",
+        "page": {
+            "firstText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores? Recusandae ducimus animi voluptates corrupti, provident beatae voluptatum vitae eveniet minima mollitia. Dolores obcaecati architecto eos non dicta, vel suscipit officia vero fuga cumque, nesciunt ut illo aspernatur, beatae omnis reiciendis esse commodi.Accusantium unde cum doloribus, nostrum vero nesciunt earum debitis!",
+            "secondText":"Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at. Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at.",
+            "tagCloud":["business", "delivery", "technology", "tracking"],
+            "comments": [{
+                "commenterName": "Onaopemipo Dare",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 20,
+                    "year": 2020,
+                    "time": "12:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Adebambo Abiodun Oluwasegun",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            },{
+                "commenterName": "Iosgun Oluwakemi",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 21,
+                    "year": 2020,
+                    "time": "04:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Bamiboy",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas."
+            }],
+            "bannerPostURL": "../img/Banner.png",
+            "relatedPostsID": [2,4,7]
+        }
+    },{
+        "id":3,
+        "title": "improve your skill set during the course of corona break",
+        "newsDate": {
+            "month": "April",
+            "day": "25",
+            "year": "2020"
+        },
+        "noOfComment": "89",
+        "cardPhotoURL": "improveskillset.png",
+        "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
+        "linkURL":"#",
+        "page": {
+            "firstText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores? Recusandae ducimus animi voluptates corrupti, provident beatae voluptatum vitae eveniet minima mollitia. Dolores obcaecati architecto eos non dicta, vel suscipit officia vero fuga cumque, nesciunt ut illo aspernatur, beatae omnis reiciendis esse commodi.Accusantium unde cum doloribus, nostrum vero nesciunt earum debitis!",
+            "secondText":"Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at. Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at.",
+            "tagCloud":["business", "delivery", "technology", "tracking"],
+            "comments": [{
+                "commenterName": "Onaopemipo Dare",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 20,
+                    "year": 2020,
+                    "time": "12:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Adebambo Abiodun Oluwasegun",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            },{
+                "commenterName": "Iosgun Oluwakemi",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 21,
+                    "year": 2020,
+                    "time": "04:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Bamiboy",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas."
+            }],
+            "bannerPostURL": "../img/Banner.png",
+            "relatedPostsID": [2,4,7]
+        }
+    },{
+        "id":4,
+        "title": "How to grow your business exponentially",
+        "newsDate": {
+            "month": "Aug",
+            "day": 20,
+            "year": 2020
+        },
+        "noOfComment": 46,
+        "cardPhotoURL": "growbiz.png",
+        "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
+        "linkURL":"#",
+        "page": {
+            "firstText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores? Recusandae ducimus animi voluptates corrupti, provident beatae voluptatum vitae eveniet minima mollitia. Dolores obcaecati architecto eos non dicta, vel suscipit officia vero fuga cumque, nesciunt ut illo aspernatur, beatae omnis reiciendis esse commodi.Accusantium unde cum doloribus, nostrum vero nesciunt earum debitis!",
+            "secondText":"Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at. Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at.",
+            "tagCloud":["business", "delivery", "technology", "tracking"],
+            "comments": [{
+                "commenterName": "Onaopemipo Dare",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 20,
+                    "year": 2020,
+                    "time": "12:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Adebambo Abiodun Oluwasegun",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            },{
+                "commenterName": "Iosgun Oluwakemi",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 21,
+                    "year": 2020,
+                    "time": "04:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Bamiboy",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas."
+            }],
+            "bannerPostURL": "../img/Banner.png",
+            "relatedPostsID": [2,4,7]
+        }
+    },{
+        "id":5,
+        "title": "How to grow your business exponentially",
+        "newsDate": {
+            "month": "Aug",
+            "day": 20,
+            "year": 2020
+        },
+        "noOfComment": 46,
+        "cardPhotoURL": "growbiz.png",
+        "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
+        "linkURL":"#",
+        "page": {
+            "firstText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores? Recusandae ducimus animi voluptates corrupti, provident beatae voluptatum vitae eveniet minima mollitia. Dolores obcaecati architecto eos non dicta, vel suscipit officia vero fuga cumque, nesciunt ut illo aspernatur, beatae omnis reiciendis esse commodi.Accusantium unde cum doloribus, nostrum vero nesciunt earum debitis!",
+            "secondText":"Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at. Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at.",
+            "tagCloud":["business", "delivery", "technology", "tracking"],
+            "comments": [{
+                "commenterName": "Onaopemipo Dare",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 20,
+                    "year": 2020,
+                    "time": "12:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Adebambo Abiodun Oluwasegun",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            },{
+                "commenterName": "Iosgun Oluwakemi",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 21,
+                    "year": 2020,
+                    "time": "04:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Bamiboy",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas."
+            }],
+            "bannerPostURL": "../img/Banner.png",
+            "relatedPostsID": [2,4,7]
+        }
+    },{
+        "id":6,
+        "title": "How to grow your business exponentially",
+        "newsDate": {
+            "month": "Aug",
+            "day": 20,
+            "year": 2020
+        },
+        "noOfComment": 46,
+        "cardPhotoURL": "growbiz.png",
+        "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
+        "linkURL":"#",
+        "page": {
+            "firstText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores? Recusandae ducimus animi voluptates corrupti, provident beatae voluptatum vitae eveniet minima mollitia. Dolores obcaecati architecto eos non dicta, vel suscipit officia vero fuga cumque, nesciunt ut illo aspernatur, beatae omnis reiciendis esse commodi.Accusantium unde cum doloribus, nostrum vero nesciunt earum debitis!",
+            "secondText":"Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at. Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at.",
+            "tagCloud":["business", "delivery", "technology", "tracking"],
+            "comments": [{
+                "commenterName": "Onaopemipo Dare",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 20,
+                    "year": 2020,
+                    "time": "12:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Adebambo Abiodun Oluwasegun",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            },{
+                "commenterName": "Iosgun Oluwakemi",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 21,
+                    "year": 2020,
+                    "time": "04:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Bamiboy",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas."
+            }],
+            "bannerPostURL": "../img/Banner.png",
+            "relatedPostsID": [2,4,7]
+        }
+    },{
+        "id":7,
+        "title": "How to grow your business exponentially",
+        "newsDate": {
+            "month": "Aug",
+            "day": 20,
+            "year": 2020
+        },
+        "noOfComment": 46,
+        "cardPhotoURL": "growbiz.png",
+        "cardText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores?",
+        "linkURL":"#",
+        "page": {
+            "firstText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam architecto enim? Reprehenderit quis obcaecati perspiciatis sit ducimus. Deserunt iste temporibus voluptas doloremque, ab repudiandae porro nobis saepe fugit maiores? Recusandae ducimus animi voluptates corrupti, provident beatae voluptatum vitae eveniet minima mollitia. Dolores obcaecati architecto eos non dicta, vel suscipit officia vero fuga cumque, nesciunt ut illo aspernatur, beatae omnis reiciendis esse commodi.Accusantium unde cum doloribus, nostrum vero nesciunt earum debitis!",
+            "secondText":"Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at. Vitae aut officiis impedit architecto, quasi, eos accusamus similique esse, error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas accusantium cum quia harum voluptate maiores porro. Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos temporibus ipsam commodi velit a natus nam nulla, beatae, laborum et adipisci cupiditate sint alias quo pariatur id qui aliquid facere repellat laudantium quisquam dolores at.",
+            "tagCloud":["business", "delivery", "technology", "tracking"],
+            "comments": [{
+                "commenterName": "Onaopemipo Dare",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 20,
+                    "year": 2020,
+                    "time": "12:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Adebambo Abiodun Oluwasegun",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "Libero saepe assumenda ipsam quidem, illum eius officia veniam rem vero aperiam minus, eum excepturi quod? Non perferendis mollitia, voluptates dolorum ea nobis nihil consequuntur.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            },{
+                "commenterName": "Iosgun Oluwakemi",
+                "commentDate": {
+                    "month": "Aug",
+                    "day": 21,
+                    "year": 2020,
+                    "time": "04:30PM"
+                },
+                "commentReplies": [{
+                    "replierName":"Bamiboy",
+                    "reply":"voluptates dolorum ea nobis nihil consequuntur."
+                }],
+                "comment": "error saepe laborum! Molestias vero odit nemo iure blanditiis facere commodi sint itaque eum possimus praesentium esse, velit quo doloremque sit voluptas."
+            }],
+            "bannerPostURL": "../img/Banner.png",
+            "relatedPostsID": [2,4,7]
+        }
+    }
+]
