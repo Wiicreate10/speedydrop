@@ -49,14 +49,14 @@ section.history .image-container {
 
 /* TIMELINE */
 main section.road-map {
-    padding: 25px 55px;
+    padding: 15px;
 }
 section.road-map .timeline {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 500px;
-    margin: 0 auto;
+    width: 100%;
+    /* margin: 0 auto; */
 }
 .timeline .time-card {
     padding: 20px;
@@ -148,6 +148,9 @@ section.compliance a {
     }
 
     /* TIMELINE */
+    main section.road-map {
+        padding: 25px 55px;
+    }
     section.road-map .timeline {
         display: flex;
         flex-wrap: nowrap;
@@ -214,7 +217,7 @@ section.compliance a {
         border: 1px solid var(--secondary);
         border-radius: 50%;
         background-color: var(--white);
-        z-index: 3;
+        z-index: 2;
     }
     
     /* position the trackers on the line*/
