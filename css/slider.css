@@ -4,7 +4,8 @@
 .slider-container .slider{
   display: flex;
   overflow-x: scroll;
-  justify-content: center;
+  /* justify-content: center; */
+
 }
 
 /* the scrollbar */
