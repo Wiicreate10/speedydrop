@@ -6,8 +6,8 @@ main{
 .container-1{
     border: none;
     display: grid;
-    height: 65vh;
-    grid-template-columns: 500px 600px;
+    height: 68vh;
+    grid-template-columns: 500px 700px;
     grid-column-gap: 20px;
     justify-content: center;
 }
@@ -15,11 +15,9 @@ main{
     border: none;
 }
 /* image container */
-.item-1{
-    background-image: url(./img/Service\ \(\ Express\ Delivery\)\ Pic.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.item-1 img{
+   width: 100%;
+   height: 100%;
 }
 /* text container */
 .itm1 h2{
@@ -28,7 +26,7 @@ main{
     margin-top: 10px;
 }
 .itm1 p{
-    font-size: 12px;
+    font-size: var(--smaller-text);
     margin-top: 15px;
     line-height: 20px;
     color: var(--text);
@@ -50,11 +48,11 @@ main{
 }
 /* second container */
 .container-2{
-    margin-top: 50px;
+    margin: 50px 0px 80px 0px;
     display: grid;
-    height: 100vh;
+    height: 130vh;
     border: none;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 650px 500px;
     grid-column-gap: 10px;
     justify-content: center;
 }
@@ -77,6 +75,7 @@ height: 10%;
 }
 .cont-1 .part{
     margin-left: 20px;
+    border: none;
 }
 .cont-1 .part h3{
     font-size: 15px;
@@ -85,40 +84,53 @@ height: 10%;
 }
 .cont-1 .part p{
     color: var(--text);
+    font-size: var(--smaller-text);
 }
 .box-2 img{
     width: 100%;
     height: 100%;
 }
 
-/* media query - 1140px max-width*/
-@media screen and (max-width: 1140px){
+/* media query - 1240px max-width*/
+@media screen and (max-width: 1240px){
     .container-1{
         grid-template-columns: 500px 500px;
     }
     .itm1 p{
         font-size: 10px;       
     }
+    .container-2{
+        height: 150vh;
+        grid-template-columns: 500px 500px;
+    }
+    .cont-1 .part p{
+        font-size: 12px;
+    }
 }
 
 /* media query - 1044px max-width*/
 @media screen and (max-width: 1044px){
     .container-1{
-        height: 130vh;
+        height: 135vh;
         grid-template-columns: 500px;
         grid-template-rows: 400px;
+        grid-row-gap: 15px;
         justify-content: center;
     }
     .container-2{
         margin-top: 50px;
-        height: 150vh;
+        height: 200vh;
         grid-template-columns: 500px;
+    }
+    .box-2 img{
+        width: 75%;
+        height: 75%;
     }
 }
 /* media query - 550px max-width*/
 @media screen and (max-width: 550px){
     .container-1{
-        height: 130vh;
+        height: 150vh;
         grid-template-columns: 350px;
         grid-template-rows: 350px;
         justify-content: center;
@@ -134,7 +146,7 @@ height: 10%;
     }
     .container-2{
         margin-top: 50px;
-        height: 200vh;
+        height: 230vh;
         grid-template-columns: 300px;
     }
     .cont-1{
