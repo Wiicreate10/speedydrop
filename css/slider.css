@@ -1,0 +1,31 @@
+.slider-container {
+  width: 100%;
+}
+.slider-container .slider{
+  display: flex;
+  overflow-x: scroll;
+  justify-content: center;
+}
+
+/* the scrollbar */
+.slider-container .slider::-webkit-scrollbar {
+  opacity: 0;
+  height:5px;
+  border-radius: 5px;
+}
+.slider-container:hover .slider::-webkit-scrollbar{
+  opacity: 1;
+  background-color: var(--dark);
+}
+.slider-container:hover .slider::-webkit-scrollbar-thumb {
+  background-color: var(--white);
+  border-radius: 5px;
+  height: 200%;
+}
+.slider-container .slider::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+.slider-container .slider::-webkit-scrollbar-thumb:active {
+  background: #999;
+}
+/* the scrollbar style ends here */

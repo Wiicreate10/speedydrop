@@ -57,7 +57,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 0;
+    top: -5px;
     background-color: var(--white);
     border-radius: 0 0 10px 10px;
     z-index: 3;
@@ -248,7 +248,6 @@ section.slide-item .img-container img {
     height: 100%;
 }
 section.slide-item .carousel-text {
-    /* border: 1px solid ; */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -259,10 +258,14 @@ section.slide-item .carousel-text {
     background-color: #05002980;
 }
 section.slide-item .carousel-text h2 {
+    position: relative;
     font-size: var(--h3);
+    animation: fadeinH1 5s ease-in infinite;
 }
 section.slide-item .carousel-text h1 {
-    font-size: var(--h2);
+  position: relative;
+  font-size: var(--h2);
+  animation: fadeinH1 5s ease-in infinite;
 }
 
 /* for the indicator */
@@ -571,4 +574,21 @@ body a:hover {
     .col.contact i {
         font-size:var(--smaller-text);
     }
+}
+
+/* animation keyframes */
+@keyframes fadeinH1 {
+  0% {
+    opacity: 0;
+    top: -30%;
+  }
+  50% {
+    top: 0%;
+  }
+  60%{
+    opacity:1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
