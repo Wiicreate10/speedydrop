@@ -26,7 +26,7 @@ main{
     margin-top: 10px;
 }
 .itm1 p{
-    font-size: var(--smaller-text);
+    font-size: var(--smaller-text);  
     margin-top: 15px;
     line-height: 20px;
     color: var(--text);
