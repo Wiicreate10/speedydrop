@@ -1,0 +1,184 @@
+main {
+  color: var(--primary);
+  font-size: var(--pre-title);
+  text-align: center;
+}
+main section {
+  padding: 25px;
+}
+main section h3 {
+  font-size: var(--subtitle);
+  text-transform: capitalize;
+}
+main section h4 {
+  font-size: var(--link);
+  text-transform: capitalize;
+}
+main section.core-values{
+  text-align: center;
+}
+main img {
+  width: 100%;
+}
+/* CORE VALUES */
+main section.core-values .values{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* each value */
+section.core-values .values div.value{
+  width: 50%;
+  padding: 10px;
+}
+.values img {
+  width: 60px;
+}
+.values h4 {
+  font-size: var(--link);
+  text-transform: capitalize;
+}
+/* SERVICES */
+main section.services {
+  background-color:var(--accent);
+  width: 100%;
+}
+
+section.services .section-content {
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+}
+.section-content > div {
+  padding: 20px;
+  width: 100%;
+}
+/* cards */
+.slider .service-card {
+  min-width:230px;
+  max-width: 270px;
+  text-align: left;
+  background-color: var(--white);
+  margin: 15px;
+}
+.card-image-container img{
+  border-radius: 8px;
+}
+.service-card .card-text-content {
+  padding: 15px;
+}
+.card-text-content p {
+  padding: 5px 0 7px;
+}
+.card-text-content a {
+  display: block;
+  background-color: var(--primary);
+  text-align: center;
+  padding: 5px;
+  border-radius:5px; 
+  text-transform: uppercase;
+}
+/* SERVICES END HERE */
+
+/* CLIENT TESTIMONIES */
+main section.client-testimonies {
+  background-color: var(--primary);
+  color: var(--white);
+}
+section.client-testimonies h3 {
+  text-transform: uppercase;
+}
+
+/* cards */
+.cards-slide .client-card {
+  background-color: var(--dark);
+  padding: 25px;
+  max-width: 300px;
+  min-width: 250px;
+  margin: 20px;
+  text-align: left;
+}
+.client-card .client-info {
+  display: flex;
+  justify-content: flex-end;
+  padding-top:15px;
+}
+.client-info .name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 10px;
+}
+.client-info .name span:first-child {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.client-info .name span:last-child {
+  text-transform: capitalize;
+}
+
+.client-info img {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  padding: 7px;
+  border-radius: 50%;
+}
+/* cards style ends here */
+section.client-testimonies .client-logos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.client-logos img{
+  width: 20%;
+  max-width: 150px;
+  min-width: 110px;
+  padding: 10px 20px;
+}
+/* CLIENT TESTIMONIES ENDS HERE */
+
+/* SHOWCASE  SECTION*/
+main section.showcase {
+  display: grid;
+}
+section.showcase .details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+  width: 100%;
+  text-align: left;
+  padding: 10px 30px;
+}
+.details .item{
+  display: grid;
+  padding: 10px;
+}
+.details .item .text {
+  color: var(--accent);
+  text-transform: uppercase;
+}
+/* media queries */
+@media screen and (min-width: 888px) {
+  /* core values */
+
+  /* make each .value div to be 20% for 5 of them will be contained in the row*/
+  section.core-values .values div.value{
+    width: 20%;
+  }
+
+  /* SERVICES */
+  section.services .section-content {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows:1fr;
+    text-align: left;
+  }
+  /* SHOWCASE  SECTION*/
+  main section.showcase {
+    grid-template-columns: 40% 60%;
+  }
+  section.showcase .details {
+    width: 80%;
+  }
+}
