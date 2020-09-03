@@ -1,0 +1,94 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+/* each section */
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* the contents*/
+main section div {
+    width: 100%;
+    max-width: 600px;
+}
+/* text */
+section .content-text, .container .content-text {
+    padding: 40px;
+}
+.content-text h3 {
+    font-size: var(--subtitle);
+    text-transform: uppercase;
+}
+.content-text p {
+    text-align: justify;
+    font-size: var(--pre-title);
+    margin-top: 10px;
+    line-height: 25px;
+}
+/* the image */
+section .image-container {
+    padding: 30px;
+}
+.image-container img {
+    width: 100%;
+}
+
+/*Express-Delivery page*/
+.container{
+    padding: 50px 0px;
+    margin-bottom: 50px;
+    display: grid;
+    border: none;
+    grid-template-columns: 650px 500px ;
+    justify-content: center;
+    column-gap: 20px;
+}
+.item-2{
+    text-align: center;
+}
+.item-2 img{
+   width: 100%;
+   height: 100%;
+}
+/* media query - 1190px max-width*/
+@media screen and (max-width: 1190px){
+    .container{
+       grid-template-columns: minmax(350px,500px)  ;   
+    }
+    .container p{
+        font-size: 12px;
+    }
+    .item-1{
+        padding: 20px 25px;
+    }
+    .item-2{
+        padding: 30px 0px;
+    }
+}
+
+/* media query - 888px max-width*/
+@media screen and (min-width: 888px) {
+    main section div{
+        width: 50%;
+    }
+    main section:last-child {
+        flex-direction: row-reverse;
+    }  
+} 
+
+/* media query - 500px max-width*/
+@media screen and (max-width: 500px){
+    .container p{
+        font-size: 11px;
+    }
+    .item-2 img{
+        width: 80%;
+        height: 80%;
+     }
+}
