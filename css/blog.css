@@ -1,0 +1,211 @@
+main {
+  display: grid;
+  grid-template-areas: 
+  'P P P P A A'
+  'C C . . A A';
+  color: var(--primary)
+}
+main section.main-post-section {
+  grid-area: P;
+} 
+main aside.aside-content {
+  grid-area: A;
+} 
+main section.comments-section {
+  grid-area: C;
+} 
+main section, main aside{
+  padding: 40px;
+  font-size:var(--pre-title);
+}
+main img {
+  width: 100%;
+}
+main a {
+  color: var(--secondary);
+}
+main h4 {
+  font-size: var(--smaller-text);
+  text-transform: capitalize;
+}
+main h3 {
+  font-size: var(--link);
+}
+/* MAIN POST SECTION */
+/* each paragraph and image*/
+section.main-post-section .post img,
+section.main-post-section .post p{
+  padding: 10px 0;
+}
+
+/* badges and share  */
+section.main-post-section .extras,
+section.main-post-section .blog-nav-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* each badge */
+.badges p {
+  background-color: var(--secondary);
+  color: var(--white);
+  padding: 3px 10px;
+  margin: 10px;
+  margin-left: 0;
+  font-weight: lighter;
+  font-size: 1rem;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-flex;
+}
+
+/* nav btns */
+.blog-nav-btns button{
+  padding: 7px 15px;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Poppins', Sans-serif;
+}
+/* each bnts */
+.blog-nav-btns button.prev-blog-btn {
+  background-color: var(--white);
+  border:2px solid;
+}
+.blog-nav-btns button.next-blog-btn {
+  background-color: var(--secondary);
+  border:2px solid var(--secondary);
+  box-shadow: 0px 2px 4px 1px rgba(5, 0, 41, 0.16);;
+}
+
+/* ASIDE */
+/* search form */
+aside form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+aside form .input-group {
+  width: unset;
+  margin-left: 10px;
+}
+/* button */
+aside form .input-group button{
+  color:var(--white);
+  background-color: var(--primary);
+  border-radius: 5px;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+  outline: 0;
+  cursor: pointer; 
+  font-family: var(--default-family);
+  box-shadow: 0px 2px 4px 1px rgba(5, 0, 41, 0.16);
+}
+/* icon in the serach field */
+aside form .input-group .icon {
+  margin:0 5px;
+}
+/* banner */
+aside .banner-post {
+  max-width: 500px;
+  margin:25px auto;
+}
+
+/* related news */
+/* cards */
+.related-posts .news-card {
+  margin: 10px auto 30px;
+  text-align: center;
+  padding-bottom: 8px;
+  max-width:550px;
+}
+
+/* COMMENT SECTION */
+section.comments-section .comment {
+  margin: 20px 0;
+}
+section.comments-section .comment-details  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: var(--secondary);
+
+}
+/* commenter detail */
+.comment-details .commenter-info {
+  display: flex;
+  align-items: center;
+}
+/* avatar */
+.commenter-info .avatar img{
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 40px;
+  background-color:#dae9f885;
+  padding:5px;
+}
+/* name */
+.commenter-info .name {
+  color: var(--primary);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* the reply btn */
+section.comments-section .link-type {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  font-size: var(--smaller-text);
+  margin: 15px 0;
+  text-transform: capitalize;
+  color: var(--secondary);
+  font-weight: bold;
+}
+section.comments-section .link-type:hover {
+  color: var(--primary);
+}
+
+/* enter comment */
+section.comments-section h3 {
+  text-transform: capitalize;
+}
+section.comments-section small {
+  color: var(--accent);
+  font-size: 1rem;
+}
+section.comments-section form {
+  margin: 20px 0;
+}
+@media screen and (max-width: 888px) {
+  main {
+    grid-template-areas: 
+    'P'
+    'A'
+    'C';
+    text-align: center;
+  }
+  section.main-post-section .extras {
+    justify-content:center;
+    flex-direction: column;
+  }
+
+  aside form {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  section.comments-section form .input-group {
+    text-align:left;
+  } 
+}
