@@ -1,0 +1,87 @@
+main{
+  color: var(--primary);
+  font-size: var(--pre-title);
+}
+main section {
+  /* width: 100%; */
+  padding: 25px;
+}
+main section img {
+  width: 100%;
+}
+main section h3 {
+  font-size: var(--subtitle);
+  text-transform: capitalize;
+}
+main section h4 {
+  font-size: var(--link);
+  text-transform: capitalize;
+}
+/* intro */
+section.services-intro p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+/* SEVRICES SLIDER */
+main section.services-slider {
+  background-color:var(--accent);
+}
+
+.services-slider .slider-container {
+  display: flex;
+  justify-content: center;
+}
+/* cards */
+.slider .service-card {
+  min-width:230px;
+  max-width: 270px;
+  text-align: left;
+  background-color: var(--white);
+  margin: 15px;
+}
+.card-image-container img{
+  border-radius: 8px;
+}
+.service-card .card-text-content {
+  padding: 15px;
+}
+.card-text-content p {
+  padding: 5px 0 7px;
+}
+.card-text-content a {
+  display: block;
+  background-color: var(--primary);
+  text-align: center;
+  padding: 5px;
+  border-radius:5px; 
+  text-transform: uppercase;
+  width: 60%;
+  margin: 10px auto 0;
+}
+.card-text-content a:hover {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+/* SERVICES SLIDER END HERE */
+
+/* RELATED LINKS */
+main section.related-links {
+  background-color: var(--dark);
+  color: var(--white);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+section.related-links .links {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: fit-content;
+  max-width: 500px;
+  margin: 20px auto;
+}
+section.related-links a svg {
+  fill: white;
+}
+section.related-links a:hover svg {
+  fill: var(--secondary);
+}
