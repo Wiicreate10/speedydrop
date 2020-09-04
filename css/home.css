@@ -78,6 +78,10 @@ section.services .section-content {
   border-radius:5px; 
   text-transform: uppercase;
 }
+.card-text-content a:hover {
+  color: var(--white);
+  background-color: var(--secondary);
+}
 /* SERVICES END HERE */
 
 /* CLIENT TESTIMONIES */
