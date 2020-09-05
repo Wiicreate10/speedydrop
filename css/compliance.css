@@ -1,6 +1,7 @@
 /* main container */
 main{
-    background: var(--white);
+    font-size: var(--pre-title);
+    line-height: 2rem;
 }
 /* first container */
 .container-1{
@@ -19,20 +20,17 @@ main{
    height: 100%;
 }
 /* text container */
-.itm1 h2{
-    font-size:20px;
+.itm1 h3{
     color: var(--primary);
     margin-top: 10px;
+    font-size:var(--body);
 }
 .itm1 p{
-    font-size: var(--smaller-text);  
-    margin-top: 15px;
-    line-height: 20px;
+    margin-top: 8px;
     color: var(--text);
 }
 .itm1 h4{
     margin-top: 10px;
-    font-size:12px;
     color: var(--primary);
 }
 .tic-1{
@@ -58,7 +56,6 @@ main{
     border: none;
 }
 .itm2 h2{
-    font-size:  22px;
     color: var(--primary);
 }
 /* svg container */
@@ -75,13 +72,11 @@ width: 10%;
     border: none;
 }
 .cont-1 .part h3{
-    font-size: 15px;
     padding: 10px 0px;
     color: var(--primary);
 }
 .cont-1 .part p{
     color: var(--text);
-    font-size: var(--smaller-text);
 }
 .box-2 {
   display: flex;
@@ -97,14 +92,8 @@ width: 10%;
     .container-1{
         grid-template-columns: 500px 500px;
     }
-    .itm1 p{
-        font-size: 10px;       
-    }
     .container-2{
         grid-template-columns: 500px 500px;
-    }
-    .cont-1 .part p{
-        font-size: 12px;
     }
 }
 
@@ -135,8 +124,6 @@ width: 10%;
     .tic-1{
       text-align: center;
     }
-   
-   
     .itm2 h2{
         text-align: center;
     }

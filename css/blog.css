@@ -3,7 +3,8 @@ main {
   grid-template-areas: 
   'P P P P A A'
   'C C . . A A';
-  color: var(--primary)
+  color: var(--primary);
+  line-height: 2rem;
 }
 main section.main-post-section {
   grid-area: P;
@@ -60,6 +61,42 @@ section.main-post-section .blog-nav-btns {
   border-radius: 15px;
   text-align: center;
   display: inline-flex;
+  align-content: center;
+  justify-content: center;
+}
+.badges p a {
+  color: var(--white);
+}
+.extras .share {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.share .drop-down-social-icons {
+  display: flex;
+  align-items: center;
+  max-width: 0;
+  overflow: hidden;
+  transition: max-width 0.4s ease-in-out;
+}
+
+.drop-down-social-icons a {
+  width: 20px;
+  padding: 5px;
+  box-sizing: content-box;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+.drop-down-social-icons a:first-child {
+  padding-left: 15px;
+}
+.drop-down-social-icons a:hover {
+  transform: scale(1.2);
+}
+/* when the share btn is hovered on */
+.extras .share:hover .drop-down-social-icons {
+  max-width: 150px;
 }
 
 /* nav btns */

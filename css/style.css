@@ -260,14 +260,14 @@ section.slide-item .carousel-text {
 section.slide-item .carousel-text h2 {
     position: relative;
     font-size: var(--h3);
-    animation: fadeinH1 5s ease-in infinite;
 }
 section.slide-item .carousel-text h1 {
   position: relative;
   font-size: var(--h2);
+}
+section.slide-item .carousel-text .animated-heading-JS {
   animation: fadeinH1 5s ease-in infinite;
 }
-
 /* for the indicator */
 .carousel .indicator {
     display: flex;
@@ -300,7 +300,7 @@ section.slide-item .carousel-text h1 {
 
 /* JS classes */
 .nav-link.dropdown .dropdown-items.expanded {
-    max-height:100px;
+    max-height:150px;
 }
 .nav-link.dropdown .dropdown-items li {
     margin: 4px 10px;
@@ -312,13 +312,8 @@ section.slide-item .carousel-text h1 {
 
 /* main */
 main {
-    /* position: relative; */
-    color: black;
-    /* font-size: var(--h3); */
-    margin-top:calc(var(--heroHeight) - var(--fit));
-    /* display:flex;
-    justify-content: center;
-    align-items: center; */
+  color: var(--primary);
+  margin-top:calc(var(--heroHeight) - var(--fit));
 }
 
 /* FOOTER */
@@ -443,7 +438,7 @@ body a:hover {
         overflow: hidden;
     }
     .nav-links > ul.expanded {
-        max-height: 400px;
+        max-height: 500px;
     }
     .nav-links ul .nav-link {
         display: block;
@@ -580,9 +575,9 @@ body a:hover {
 @keyframes fadeinH1 {
   0% {
     opacity: 0;
-    top: -30%;
+    top: -50%;
   }
-  50% {
+  40% {
     top: 0%;
   }
   60%{
