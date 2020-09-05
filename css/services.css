@@ -58,9 +58,14 @@ main section.services-slider {
   padding: 5px;
   border-radius:5px; 
   text-transform: uppercase;
+<<<<<<< HEAD
   margin: 10px auto 0;
   width: 100%;
   align-self: end;
+=======
+  width: 60%;
+  margin: 10px auto 0;
+>>>>>>> upstream/master
 }
 .card-text-content a:hover {
   background-color: var(--secondary);

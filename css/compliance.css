@@ -83,6 +83,11 @@ width: 10%;
   justify-content: center;
   padding: 20px;
 }
+.box-2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 .box-2 img{
     width: 100%;
 }
