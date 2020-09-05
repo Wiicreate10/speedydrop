@@ -38,12 +38,15 @@ main section.services-slider {
   text-align: left;
   background-color: var(--white);
   margin: 15px;
+  display: grid;
 }
 .card-image-container img{
   border-radius: 8px;
 }
 .service-card .card-text-content {
   padding: 15px;
+  display: grid;
+  align-items: start;
 }
 .card-text-content p {
   padding: 5px 0 7px;
@@ -55,8 +58,14 @@ main section.services-slider {
   padding: 5px;
   border-radius:5px; 
   text-transform: uppercase;
+<<<<<<< HEAD
+  margin: 10px auto 0;
+  width: 100%;
+  align-self: end;
+=======
   width: 60%;
   margin: 10px auto 0;
+>>>>>>> upstream/master
 }
 .card-text-content a:hover {
   background-color: var(--secondary);

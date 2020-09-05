@@ -46,57 +46,73 @@ const handleCarousel = () => {
     slideContainer.style.width = `${slides.length * 100}%`;
 
     // variables
-    let currentSlide = 0; //skip the clone
+    let currentSlideIndex = 0; //skip the clone
     
     // the width
     let slideWidth = slides[0].clientWidth;
 
     // set the carousel to the first original slide
-    slideContainer.style.transform = `translateX(${-slideWidth * currentSlide}px)`;
+    slideContainer.style.transform = `translateX(${-slideWidth * currentSlideIndex}px)`;
 
-    
+    let headings = slides[currentSlideIndex].querySelectorAll('.animated-heading');
+
+    headings.forEach(heading => {
+      heading.classList.add('animated-heading-JS');
+    })
     const changeCarousel = () => {
-        if(currentSlide >= slides.length-1) return;
+        if(currentSlideIndex >= slides.length-1) return;
         // add transition class to the carousel
         slideContainer.classList.add('scroll-smooth');
-         
+        
         // increase the current slide counter
-        currentSlide++
-
+        currentSlideIndex++
+        
         // set the index to be 1 greater than the slide counter
-        let index = currentSlide +1;
-
+        let index = currentSlideIndex +1;
+        
         // translate the slide
-        slideContainer.style.transform = `translateX(${-slideWidth * currentSlide}px)`;
+        slideContainer.style.transform = `translateX(${-slideWidth * currentSlideIndex}px)`;
         
         // if the index is greater than 3, set it to back to 1
         if(index>3){
-            index = 1;
+          index = 1;
         }
         // update the indicator text
         indicatorText.textContent = `0${index}`;
+        
+        headings = slides[index-1].querySelectorAll('.animated-heading');
 
+        // add the transition class to each of the headings
+        headings.forEach(heading => {
+          heading.classList.add('animated-heading-JS');
+        })
         // update the indicator slider
         indicatorSlider.style.transform = `translateX(${(index-1) * 100}%)`
     }
 
     slideContainer.addEventListener('transitionend', () => {
-        if (slides[currentSlide].id === 'firstClone') {
+        const prevSlideHeadings = slides[currentSlideIndex-1].querySelectorAll('.animated-heading');
+
+        // remove the animation class from the previous slide headings
+        prevSlideHeadings.forEach(heading => {
+          heading.classList.remove('animated-heading-JS');
+        })
+        if (slides[currentSlideIndex].id === 'firstClone') {
             // remove transition class to the carousel
             slideContainer.classList.remove('scroll-smooth');
 
             // take the slide back to the beginning without a transition effect
-            currentSlide = 0;
+            currentSlideIndex = 0;
             
             // translate the slide
-            slideContainer.style.transform = `translateX(${-slideWidth * currentSlide}px)`;
+            slideContainer.style.transform = `translateX(${-slideWidth * currentSlideIndex}px)`;
         }
     })
     window.addEventListener("resize", () => {
         slideWidth= slides[0].clientWidth;
 
         // set the carousel to the first original slide
-        slideContainer.style.transform = `translateX(${-slideWidth * currentSlide}px)`;
+        slideContainer.style.transform = `translateX(${-slideWidth * currentSlideIndex}px)`;
     })
     // change carousel every 5 secs
     setInterval(changeCarousel,5000)
@@ -104,6 +120,7 @@ const handleCarousel = () => {
 // event listeners
 // to the chevron
 chevron.addEventListener('click', onChevronClick);
+
 // to the burger
 burger.addEventListener('click', onBurgerClick);
 // to the document
